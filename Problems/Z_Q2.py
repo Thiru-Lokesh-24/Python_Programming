@@ -1,0 +1,6 @@
+list1=list(map(int,input("Enter 1st element : ").split()))
+list2=list(map(int,input("Enter 2nd element : ").split()))
+list1.extend(list2)
+list1=list(dict.fromkeys(list1))
+list1.sort()
+print(list1)
